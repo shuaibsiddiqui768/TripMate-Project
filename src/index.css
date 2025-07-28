@@ -1,9 +1,4 @@
-/* 
-const initialItems = [
-  { id: 1, description: "Passports", quantity: 2, packed: false },
-  { id: 2, description: "Socks", quantity: 12, packed: false },
-];
-*/
+
 
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
 
@@ -91,8 +86,6 @@ input {
 }
 
 
-
-
 .actions button,
 .list select {
   text-transform: uppercase;
@@ -143,10 +136,6 @@ input[type="checkbox"] {
   padding: 3.2rem 0;
 }
 
-/* Hide text by default */
-
-
-/* Show text only when screen is 700px or smaller */
 @media screen and (max-width: 430px) {
   .add-form {
     display: block;
@@ -233,7 +222,7 @@ input {
   font-family: inherit;
   border: none;
   border-radius: 10rem;
-  padding: 0.8rem 2.2rem;      /* 👈 HEIGHT & WIDTH come from this! */
+  padding: 0.8rem 2.2rem;      
   font-weight: 700;
   font-size:1.2rem;
   cursor: pointer;
@@ -244,7 +233,7 @@ input {
   .actions {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Optional: centers the buttons */
+    align-items: center; 
   }
   .actions button {
     background-color: #ffebb3;
