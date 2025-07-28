@@ -66,18 +66,5 @@ function handleSubmit(e){
 }
 
 
-//Data flow visual
-// User Input (description + quantity)
-//           ⬇
-//   Stored in useState in Form
-//           ⬇
-//   User clicks "Add" ➝ handleSubmit()
-//           ⬇
-//   Creates newItem object
-//           ⬇
-//   onAddItems(newItem) ➝ sends to parent
-//           ⬇
-//   Parent’s setItems([...items, newItem])
-//           ⬇
-//   App component rerenders with new item in list ✅
+
 
