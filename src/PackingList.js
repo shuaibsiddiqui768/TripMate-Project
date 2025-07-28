@@ -40,7 +40,6 @@ export default function PackingList({items,onDeleteItem,onToggleItem,onClearItem
       <div className="actions">
 
         <select className="sort-method"
-        //Jab user dropdown mein se kuch select karega (e.g. "Sort by Description"),toh uska value update hoke sortBy state mein chala jaata hai.
          value={sortBy} onChange={(e)=>setSortBy(e.target.value)}>
 
           <option value="input">Sort by Input Order</option>
