@@ -9,7 +9,6 @@ export default function Item({ itemObj, onDeleteItem, onToggleItem }) {
 
       <input
         type="checkbox"
-        //packed status lelo global app se
         value={itemObj.packed}
         //id lelo global app se
         onChange={() => onToggleItem(itemObj.id)} />
