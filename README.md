@@ -22,7 +22,7 @@ TripMate is a sleek, modern, and highly interactive React application designed t
 ![1](https://github.com/user-attachments/assets/99dcde76-5f07-4ade-871a-0e9e34552f73)
 
 
-![2](https://github.com/user-attachments/assets/1684e05e-be55-46e1-adde-3f21c5b2fe1e)
+
 
 ## 🛠️ Built With
 
@@ -74,3 +74,4 @@ TripMate uses a vibrant, high-contrast color palette (warm oranges and deep brow
 ---
 
 *Enjoy your journey!* ✈️
+
